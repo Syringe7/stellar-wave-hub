@@ -75,6 +75,26 @@ behind it, and the funded receiving account together across three independent
 sources (repository configuration, Stellar Expert, and Horizon), confirming
 real micropayments have flowed through the platform's documented flow.
 
+## Screenshots
+
+Captured from the live testnet deployment and explorer, included in this
+directory:
+
+### Live search UI (stellar-search.vercel.app)
+
+![StellarSearch UI](./stellarsearch/search-ui.png)
+
+### x402 discovery endpoint
+
+![x402 discovery](./stellarsearch/x402-discovery.png)
+
+### Settlement contract on Stellar Expert
+
+![USDC settlement contract on Stellar Expert](./stellarsearch/stellar-expert-contract.png)
+
+The first two images are also attached to the Hub submission as research
+images.
+
 ## Suggested Hub Submission
 
 - **Name:** StellarSearch
@@ -100,3 +120,4 @@ real micropayments have flowed through the platform's documented flow.
 5. [Testnet USDC settlement contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA) — invocation and event counts
 6. [Receiving account on Horizon Testnet](https://horizon-testnet.stellar.org/accounts/GDXA3V2LI3VN3GBH5BMOF25QSFJV7S7ZOWMHHQMJRPP4BVORDDRTIIMU) — balances and Soroban payment history
 7. [x402 protocol](https://www.x402.org) — HTTP 402 payment challenge/settlement flow and OpenZeppelin facilitator
+8. [Live deployment health endpoint](https://stellar-search.vercel.app/api/health) — confirms the Vercel deployment serves the StellarSearch API
