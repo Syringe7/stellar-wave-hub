@@ -106,10 +106,16 @@ images.
 - **Soroban Contract ID:** `CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA` (testnet USDC settlement contract)
 - **Stellar Account ID:** `GDXA3V2LI3VN3GBH5BMOF25QSFJV7S7ZOWMHHQMJRPP4BVORDDRTIIMU` (platform receiving address)
 
-## Hub Submission Status
+## Hub Submission Confirmed
 
-- Pending upload through the Hub (this document + the data above is ready to
-  be entered into the submission form)
+- **Hub project ID:** `135`
+- **Hub slug:** `stellarsearch`
+- **Submission status:** `submitted` (awaiting administrator review)
+- **Submitted network:** `Testnet`
+- **Research images:** 2 uploaded and attached to the Hub record
+  ([search UI](https://dlwcywvybsedgmcggmjn.supabase.co/storage/v1/object/public/research-images/85/1790375313546-4rsxen.png),
+  [x402 discovery](https://dlwcywvybsedgmcggmjn.supabase.co/storage/v1/object/public/research-images/85/1790375313867-58czw1.png))
+- **Submitted by:** Syringe7 (contributor #85)
 
 ## Sources
 
